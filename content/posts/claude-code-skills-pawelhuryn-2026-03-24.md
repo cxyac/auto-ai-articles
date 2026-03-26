@@ -1,3 +1,10 @@
+---
+title: "完整文章翻译：Lessons from Building Claude Code: How We Use Skills"
+date: 2026-03-27T00:48:15+08:00
+draft: false
+tags: []
+---
+
 # 完整文章翻译：Lessons from Building Claude Code: How We Use Skills
 
 ## 文章信息
