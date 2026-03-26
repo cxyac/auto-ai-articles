@@ -1,0 +1,27 @@
+baseURL = "https://cxyac.github.io/auto-ai-articles/"
+languageCode = "zh-CN"
+title = "我的翻译博客"
+theme = "PaperMod"
+defaultContentLanguage = "zh"
+enableEmoji = true
+paginate = 10
+
+[params]
+  description = "英文好文中英双语翻译"
+  author = "Your Name"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+
+[menu]
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 2
