@@ -1,20 +1,42 @@
 baseURL = "https://cxyac.github.io/auto-ai-articles/"
 languageCode = "zh-CN"
-title = "我的翻译博客"
+title = "双语精读"
 theme = "PaperMod"
 defaultContentLanguage = "zh"
 enableEmoji = true
 paginate = 10
 
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
 [params]
-  description = "英文好文中英双语翻译"
-  author = "Your Name"
+  description = "优质英文内容，中英双语对照阅读"
+  author = "cxyac"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
   defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowFullTextinRSS = false
+
+  [params.homeInfoParams]
+    Title = "双语精读"
+    Content = """
+从互联网精选优质英文内容，AI 辅助翻译，中英双语对照呈现。
+发送任意英文文章链接到 Telegram Bot，自动翻译并发布。
+"""
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/cxyac"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/auto-ai-articles/index.xml"
 
 [menu]
   [[menu.main]]
@@ -22,6 +44,14 @@ paginate = 10
     url = "/posts/"
     weight = 1
   [[menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    name = "搜索"
+    url = "/search/"
+    weight = 3
+  [[menu.main]]
     name = "关于"
     url = "/about/"
-    weight = 2
+    weight = 4
