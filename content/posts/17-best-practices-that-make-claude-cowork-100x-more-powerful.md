@@ -1,11 +1,11 @@
 ---
-title: "长推文翻译：17 Best Practices That Make Claude Cowork 100x More Powerful"
+title: "17 Best Practices That Make Claude Cowork 100x More Powerful"
 date: 2026-03-27T01:33:19+08:00
 draft: false
 tags: []
 ---
 
-# 长推文翻译：17 Best Practices That Make Claude Cowork 100x More Powerful
+# 17 Best Practices That Make Claude Cowork 100x More Powerful
 
 ## 帖子信息
 
