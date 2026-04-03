@@ -1,6 +1,6 @@
 baseURL = "https://cxyac.github.io/auto-ai-articles/"
 languageCode = "zh-CN"
-title = "双语精读"
+title = "AI收藏夹"
 theme = "PaperMod"
 defaultContentLanguage = "zh"
 enableEmoji = true
@@ -10,7 +10,7 @@ paginate = 10
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-  description = "优质英文内容，中英双语对照阅读"
+  description = "AI 相关好文收藏，英文自动翻译为中文"
   author = "cxyac"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -24,10 +24,9 @@ paginate = 10
   ShowFullTextinRSS = false
 
   [params.homeInfoParams]
-    Title = "双语精读"
+    Title = "AI收藏夹"
     Content = """
-从互联网精选优质英文内容，AI 辅助翻译，中英双语对照呈现。
-发送任意英文文章链接到 Telegram Bot，自动翻译并发布。
+收藏 AI 相关的好文章。英文内容自动翻译为中文，中文内容直接收录。
 """
 
   [[params.socialIcons]]
