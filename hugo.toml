@@ -1,4 +1,4 @@
-baseURL = "https://cxyac.github.io/auto-ai-articles/"
+baseURL = "https://study.helloaidev.com/"
 languageCode = "zh-CN"
 title = "AI收藏夹"
 theme = "PaperMod"
@@ -35,7 +35,7 @@ paginate = 10
 
   [[params.socialIcons]]
     name = "rss"
-    url = "/auto-ai-articles/index.xml"
+    url = "/index.xml"
 
 [menu]
   [[menu.main]]
